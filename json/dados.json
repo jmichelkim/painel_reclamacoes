@@ -1,0 +1,49 @@
+[{
+		"cgc": 647,
+		"unidade": "CAPITAL, DF",
+		"bacen": 0,
+		"procon": 0,
+		"ouvidoria": 1,
+		"sac": 3
+	},
+	{
+		"cgc": 816,
+		"unidade": "210 SUL, DF",
+		"bacen": 2,
+		"procon": 0,
+		"ouvidoria": 0,
+		"sac": 2
+	},
+	{
+		"cgc": 1057,
+		"unidade": "515 SUL, DF",
+		"bacen": 1,
+		"procon": 0,
+		"ouvidoria": 1,
+		"sac": 4
+	},
+	{
+		"cgc": 1088,
+		"unidade": "AGUAS LINDAS SHOPPING, GO",
+		"bacen": 1,
+		"procon": 0,
+		"ouvidoria": 0,
+		"sac": 5
+	},
+	{
+		"cgc": 1985,
+		"unidade": "AV RECANTO, DF",
+		"bacen": 0,
+		"procon": 2,
+		"ouvidoria": 0,
+		"sac": 2
+	},
+	{
+		"cgc": 3002,
+		"unidade": "GUARA II, DF",
+		"bacen": 0,
+		"procon": 1,
+		"ouvidoria": 0,
+		"sac": 1
+	}
+]

@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>GEATE -Relatório Executivo</title>
+    <link rel="stylesheet" type="text/css" href="css/index-2.css">
+    <link rel="stylesheet" type="text/css" href="css/estilo.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+
+<body onload="get_browser()">
+
+    <div class="navbar">
+        <div class="grid-container">
+            <div class="grid-item titulo" style="width: 100%;">
+                <h6 >GEATE - Relatório Executivo</h6>
+            </div>
+            <div class="grid-item titulo">
+            </div>
+            <div class="grid-item titulo">
+                <h6>Jorge Michel Kim - C126307</h6>
+            </div>
+        </div>
+    </div>
+
+    <div class="conteudo">
+
+            <div class="grid-container">
+                <div class="grid-item"></div>
+                <div class="grid-item"><button id="exibir-dados" class="waves-effect waves-light #0277bd light-blue darken-3 btn">
+                        <i class="material-icons left">cloud_download</i>
+                        Exibir Dados
+                    </button>
+                    <button id="limpar-dados" class="waves-effect waves-light #0277bd light-blue darken-3 btn" onclick="limpar()" disabled="disabled">
+                        <i class="material-icons left">clear</i>
+                        Limpar Dados
+                    </button>
+                </div>
+                <div class="grid-item"></div>
+            </div>
+
+        <h5 class="centralizado azul" style="padding-bottom: 10px; padding-top: 0px;" >Painel Volume de Reclamações por Agência / PA</h5>
+
+                    <p id="textoPrincipal" class="centralizado cinza">Utlizar o botão acima Exibir Dados para geração de relatório.</p>
+                    <p id="textoPrincipal-2" class="centralizado cinza">Para maiores informações, entrar em contato com a administradora do sistema - GEATE.</p>
+
+            
+        <div id="divTabela">
+
+            <table class="highlight cinzaEscuro invisivel" id="tabelaDados">
+                <thead>
+                    <tr>
+                    <th rowspan="2"><br>CGC</th>
+                    <th rowspan="2"><br>Agência/PA</th>
+                    <th colspan="4" class="centralizado">Reclamações</th>
+                    </tr>
+                    <th>Bacen</th>
+                    <th>Procon</th>
+                    <th>Ouvidoria</th>
+                    <th>SAC</th>
+                </thead>
+                <tbody id="tabela-unidades">
+                    <div id="dados-tabela">
+
+                    </div>
+                </tbody>
+            </table>
+        
+            <p id="dataDoRelatorio" class="cinza"></p>
+            <span id="erro-ajax" class="invisivel">Erro ao buscar os dados</span>
+
+        </div>
+
+    </div>
+
+    <script src="js/form-2.js"></script>
+    <script src="js/buscar-dados.js"></script>
+    <script src="js/limpar-dados.js"></script>
+    <script src="js/verificar-navegador.js"></script>
+
+</body>
+</html>
